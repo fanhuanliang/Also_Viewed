@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div>
+  <label
+    className="item-rating-count"
+  >
+    13
+  </label>
+</div>
+`;

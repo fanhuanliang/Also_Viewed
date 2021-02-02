@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="main-view"
+>
+  <div
+    className="sc-iBPRYJ KIsfl container-viewed"
+  >
+    <h1
+      className="title"
+    >
+       People Also Viewed 
+    </h1>
+    <div
+      className="sc-jSgupP gRniap"
+    >
+      <button
+        className="hidden-view"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa fa-long-arrow-left"
+        />
+      </button>
+    </div>
+    <div>
+      <div
+        className="sc-bdfBwQ eHfRaG flex-box"
+      >
+        <div
+          className="sc-dlfnbm hTUCeX pages"
+        >
+          <div
+            className="sc-gsTCUz ePRiRs"
+          >
+            <div
+              className="sc-eCssSg ifsWGG"
+            />
+          </div>
+          <div
+            className="sc-gsTCUz koMqhJ"
+          >
+            <div
+              className="sc-eCssSg ifsWGG"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gKsewC jzJMhD"
+    >
+      <button
+        className="button-view"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa fa-long-arrow-right"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-fubCfw iyZZIK container-bought"
+  >
+    <h1
+      className="title"
+    >
+      People shopping
+      
+      ultimately bought
+    </h1>
+    <div
+      className="sc-jSgupP gRniap"
+    >
+      <button
+        className="hidden-bought"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa fa-long-arrow-left"
+        />
+      </button>
+    </div>
+    <div>
+      <div
+        className="sc-bdfBwQ eHfRaG flex-box"
+      >
+        <div
+          className="sc-dlfnbm hTUCeX pages"
+        >
+          <div
+            className="sc-gsTCUz ePRiRs"
+          >
+            <div
+              className="sc-eCssSg ifsWGG"
+            />
+          </div>
+          <div
+            className="sc-gsTCUz koMqhJ"
+          >
+            <div
+              className="sc-eCssSg ifsWGG"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gKsewC jzJMhD"
+    >
+      <button
+        className="button-bought"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa fa-long-arrow-right"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="sc-bdfBwQ fECFQP"
+>
+  <img
+    alt=""
+    className="also-viewed-img"
+    src="https://www.rei.com/media/product/148949?size=280"
+  />
+  <div>
+    <div
+      className="item-name"
+    >
+      <div
+        className="item-brand"
+      >
+        Manduka
+      </div>
+      Lean Cork
+      <br />
+      Block
+    </div>
+    <div>
+      <label
+        className="item-rating-count"
+      >
+         (2)
+      </label>
+    </div>
+    <label
+      className="item-price"
+    >
+      $16.00
+    </label>
+  </div>
+</div>
+`;

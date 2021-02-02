@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div
+  className="sc-gsTCUz ywWHk"
+>
+  <div
+    className="sc-bdfBwQ fECFQP"
+  >
+    <img
+      alt=""
+      className="also-viewed-img"
+      src="https://www.rei.com/media/product/148949?size=280"
+    />
+    <div>
+      <div
+        className="item-name"
+      >
+        <div
+          className="item-brand"
+        >
+          Manduka
+        </div>
+        Lean Cork
+        <br />
+        Block
+      </div>
+      <div>
+        <label
+          className="item-rating-count"
+        >
+           (2)
+        </label>
+      </div>
+      <label
+        className="item-price"
+      >
+        $16.00
+      </label>
+    </div>
+  </div>
+  <div
+    className="sc-bdfBwQ fECFQP"
+  >
+    <img
+      alt=""
+      className="also-viewed-img"
+      src="https://www.rei.com/media/product/182895?size=280"
+    />
+    <div>
+      <div
+        className="item-name"
+      >
+        <div
+          className="item-brand"
+        >
+          Manduka
+        </div>
+        Rectangular
+        <br />
+        Bolster
+      </div>
+      <div>
+        <label
+          className="item-rating-count"
+        >
+           (2)
+        </label>
+      </div>
+      <label
+        className="item-price"
+      >
+        $68.00
+      </label>
+    </div>
+  </div>
+  <div
+    className="sc-bdfBwQ fECFQP"
+  >
+    <img
+      alt=""
+      className="also-viewed-img"
+      src="https://www.rei.com/media/product/173243?size=280"
+    />
+    <div>
+      <div
+        className="item-name"
+      >
+        <div
+          className="item-brand"
+        >
+          Manduka
+        </div>
+        unBLOK Recycled
+        <br />
+        Foam Yoga Block
+      </div>
+      <div>
+        <label
+          className="item-rating-count"
+        >
+           (3)
+        </label>
+      </div>
+      <label
+        className="item-price"
+      >
+        $24.00
+      </label>
+    </div>
+  </div>
+  <div
+    className="sc-bdfBwQ fECFQP"
+  >
+    <img
+      alt=""
+      className="also-viewed-img"
+      src="https://www.rei.com/media/product/101409?size=280"
+    />
+    <div>
+      <div
+        className="item-name"
+      >
+        <div
+          className="item-brand"
+        >
+          Jade
+        </div>
+        Cork Yoga
+        <br />
+        Block
+      </div>
+      <div>
+        <label
+          className="item-rating-count"
+        >
+           (6)
+        </label>
+      </div>
+      <label
+        className="item-price"
+      >
+        $14.95-$19.95
+      </label>
+    </div>
+  </div>
+  <div
+    className="sc-bdfBwQ fECFQP"
+  >
+    <img
+      alt=""
+      className="also-viewed-img"
+      src="https://www.rei.com/media/product/182894?size=280"
+    />
+    <div>
+      <div
+        className="item-name"
+      >
+        <div
+          className="item-brand"
+        >
+          Manduka
+        </div>
+        Lean Bolster
+        <br />
+        
+      </div>
+      <div>
+        <label
+          className="item-rating-count"
+        >
+           (1)
+        </label>
+      </div>
+      <div>
+        <label
+          className="item-sale-discount"
+        >
+           $43.95
+        </label>
+        <label
+          className="item-sale-price"
+        >
+           $56.00
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bdfBwQ fECFQP"
+  >
+    <img
+      alt=""
+      className="also-viewed-img"
+      src="https://www.rei.com/media/product/843154?size=280"
+    />
+    <div>
+      <div
+        className="item-name"
+      >
+        <div
+          className="item-brand"
+        >
+          Manduka
+        </div>
+        Recycled Foam
+        <br />
+        Yoga Block
+      </div>
+      <div>
+        <label
+          className="item-rating-count"
+        >
+           (8)
+        </label>
+      </div>
+      <label
+        className="item-price"
+      >
+        $16.00
+      </label>
+    </div>
+  </div>
+</div>
+`;
