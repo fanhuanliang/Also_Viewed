@@ -6,6 +6,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const models = require('./models');
+require('newrelic');
 
 const PORT = 1337;
 const app = express();
