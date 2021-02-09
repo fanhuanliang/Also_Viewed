@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable import/order */
 const connection = require('../database/connection');
 const bodyParser = require('body-parser');
 const express = require('express');
@@ -17,11 +19,15 @@ app.use('/', express.static(path.join(__dirname, '..', 'public')));
 app.get('/api/top-picks/fetch', (req, res) => {
   models.fetchAlsoViewed((err, data) => {
     if (err) {
+      // console.log('sth wrong')
       res.statusCode = 400;
       res.end();
     } else {
       res.statusCode = 200;
-      res.send(data);
+      // console.log('ok')
+      // console.log(JSON.parse(data[0].related))
+      // res.send(JSON.parse(data[0].related));
+      res.send(data[0].related);
     }
   });
 });
@@ -33,6 +39,8 @@ app.get('/api/ultimately-bought/fetch', (req, res) => {
       res.end();
     } else {
       res.statusCode = 200;
+      // console.log(data)
+      // console.log('data')
       res.send(data);
     }
   });

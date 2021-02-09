@@ -38,6 +38,7 @@ const Main = () => {
   useEffect(() => {
     axios.get('http://localhost:1337/api/top-picks/fetch')
       .then((response) => {
+        console.log(response.data);
         setPageOneData(response.data);
       })
       .catch((error) => {
@@ -46,6 +47,7 @@ const Main = () => {
       .then(() => {
         axios.get('http://localhost:1337/api/ultimately-bought/fetch')
           .then((response) => {
+            console.log(response.data);
             setPageTwoData(response.data[0].related);
             setProductName(` ${response.data[0].productName} `);
           })

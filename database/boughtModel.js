@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const BoughtSchema = mongoose.Schema({
   productName: String,
-  identifier: Number,
+  _id: Number,
   related: Array,
 });
 

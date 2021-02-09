@@ -1,8 +1,11 @@
 const Bought = require('../database/boughtModel.js');
-const Viewed = require('../database/viewedModel.js');
+// const Viewed = require('../database/viewedModel.js');
+// const ViewedSchema = require('../database/viewedModel.js');
+
+const viewId = 1;
 
 const fetchAlsoViewed = (callback) => {
-  Viewed.find({}, (error, response) => {
+  Bought.find({ _id: viewId }, (error, response) => {
     if (error) {
       callback(error);
     } else {
@@ -22,8 +25,9 @@ const fetchAllBought = (callback) => {
 };
 
 const fetchBought = (callback) => {
-  const random = Math.floor(Math.random() * 3);
-  Bought.find({ identifier: random }, (error, response) => {
+  const boughtId = Math.floor(Math.random() * 3 + (viewId + 1));
+  // const random = Math.floor(Math.random() * 3);
+  Bought.find({ _id: boughtId }, (error, response) => {
     if (error) {
       callback(error);
     } else {

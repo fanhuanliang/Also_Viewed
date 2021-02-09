@@ -7,3 +7,10 @@ node_modules/
 ## Compiled files ##
 compiled/
 dist/
+
+##data##
+SDC/json
+
+##fec origin##
+database-fec
+server-fec
