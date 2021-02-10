@@ -10,7 +10,7 @@
     "server": "nodemon server/index.js",
     "seed": "node seeding.js",
     "generateData": "node --max-old-space-size=8192 SDC/fakeDataGenerate.js",
-    "importData": "node --max-old-space-size=8192 seeding.js"
+    "importData": "node --max-old-space-size=8192 SDC/seeding.js"
   },
   "repository": {
     "type": "git",

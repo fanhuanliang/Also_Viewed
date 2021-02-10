@@ -17,8 +17,8 @@ app.use(cors());
 
 app.use('/', express.static(path.join(__dirname, '..', 'public')));
 
-app.get('/api/top-picks/fetch', (req, res) => {
-  models.fetchAlsoViewed((err, data) => {
+app.get('/api/top-picks/fetch/:id', (req, res) => {
+  models.fetchAlsoViewed(req.params.id, (err, data) => {
     if (err) {
       // console.log('sth wrong')
       res.statusCode = 400;
@@ -33,8 +33,8 @@ app.get('/api/top-picks/fetch', (req, res) => {
   });
 });
 
-app.get('/api/ultimately-bought/fetch', (req, res) => {
-  models.fetchBought((err, data) => {
+app.get('/api/ultimately-bought/fetch/:id', (req, res) => {
+  models.fetchBought(req.params.id, (err, data) => {
     if (err) {
       res.statusCode = 400;
       res.end();

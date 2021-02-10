@@ -36,16 +36,16 @@ const Main = () => {
   const [pageTwoData, setPageTwoData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:1337/api/top-picks/fetch')
+    axios.get('http://localhost:1337/api/top-picks/fetch/9000')
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setPageOneData(response.data);
       })
       .catch((error) => {
         throw error;
       })
       .then(() => {
-        axios.get('http://localhost:1337/api/ultimately-bought/fetch')
+        axios.get('http://localhost:1337/api/ultimately-bought/fetch/9000')
           .then((response) => {
             console.log(response.data);
             setPageTwoData(response.data[0].related);
