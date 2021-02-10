@@ -6,13 +6,15 @@ let errorRate = new Rate('errorRate');
 
 export let options = {
   stages: [
-    { duration: '10s', target: 100 },
-    { duration: '10s', target: 100 },
-    { duration: '10s', target: 300 },
-    { duration: '10s', target: 300 },
-    { duration: '10s', target: 400 },
-    { duration: '10s', target: 400 },
-    { duration: '10s', target: 0 },
+    { duration: '3m', target: 100 },
+    { duration: '3m', target: 100 },
+    { duration: '3m', target: 300 },
+    { duration: '3m', target: 300 },
+    { duration: '3m', target: 600 },
+    { duration: '3m', target: 600 },
+    { duration: '3m', target: 1000 },
+    { duration: '3m', target: 1000 },
+    { duration: '3m', target: 0 },
   ],
   thresholds: {
     'errorRate': ['rate < 0.1' ]
